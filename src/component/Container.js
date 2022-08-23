@@ -49,6 +49,7 @@ const Container = ()=>{
              
             }
             catch(error){
+                setCity(null);
                 console.log("Someone seriously needs to get out");
                 console.log(error);
             }
